@@ -42,8 +42,8 @@
 |:-------------------:|---------------------|--------------------|
 | 0.01533086697337593 | 0.08530114608414956 | 48.146708946023466 |
 
-  1.  2. Random Forest Model
-     - trained rf_model using same training data as linear regression
+  2. XG boost Model
+     - trained xg_model using same training data as linear regression
      - Model results-
   
 |         MSE         | MAE                | r2_score(%)       |
@@ -53,4 +53,4 @@
 - Hence by comparision XG boost model performs best
 
 
-1. Application Buiding
+5. Application Buiding
