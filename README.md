@@ -21,7 +21,7 @@
    - Splitting Data to Train and Test set using 'train_test_split()' function from sklearn.
   
 4. Model Bulding
-    1. Linear Regression Model
+   1. Linear Regression Model
        - imported LinearRegression Library from sklearn
        - named model as 'model_lr'
        - provinding training data to model for training and creating model
