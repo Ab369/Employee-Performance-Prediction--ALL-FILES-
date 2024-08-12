@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+        background-image: url('predict-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:white;
+       }
+
+    .inputs
+    {
+        display:flex;
+        flex-direction: column;
+        width:50%;
+        margin:auto;
+        font-size:20px;
+    }
+
+    input{
+        background-color: black;
+        border:2px solid rgb(131, 115, 115);
+        height:20px;
+        color:yellow;
+    }
+    #submit
+    {
+        margin-top:10px;
+        font-size: 20px;
+        color:white;
+        height:30px;
+    }
+</style>
+
+<body>
+    
+    <h3>Enter the Inputs and Press Submit to Predict</h3>
+    <div class="inputs">
+    quarter
+    <input type="text" name="quarter" 
+    id="">
+    day
+    <input type="text" name="day" id="">
+    targeted_productivity
+    <input type="text" name="targeted_productivity" id="">
+    over_time
+    <input type="text" name="over_time" id="">
+    idle_time
+    <input type="text" name="idle_time" id="">
+    no_of_style_change
+    <input type="text" name="no_of_style_change" id="">
+    month
+    <input type="text" name="month" id="">
+    department
+    <input type="text" name="department" id="">
+    team
+    <input type="text" name="team" id="">
+    smv
+    <input type="text" name="smv" id="">
+    incentive
+    <input type="text" name="incentive" id="">
+    idle_men
+    <input type="text" name="idle_men" id="">
+    no_of_workers
+    <input type="text" name="no_of_workers" id="">
+</div>
+
+    <input type="submit" value="submit" id="submit">
+</body>
+</html>
