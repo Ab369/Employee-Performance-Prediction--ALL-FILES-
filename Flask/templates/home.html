@@ -11,7 +11,7 @@
         padding:0;
         margin:0;
         box-sizing:border-box;
-        background-image: url('bg-image.png');
+        background-image: url('/Flask/static/images/bg-image.png');
         background-repeat: no-repeat;
         background-size: cover;
        }
@@ -49,8 +49,8 @@
         <div class="heading">Employee Performance Prediction</div>
         <div class="buttons">
             <button id="home">HOME</button>
-            <button id="about">ABOUT</button>
-            <button id="predict">PREDICT</button>
+            <button id="about" onclick="window.location.href='http://127.0.0.1:5500/Flask/templates/about.html'">ABOUT</button>
+            <button id="predict" onclick="window.location.href='http://127.0.0.1:5500/Flask/templates/predict.html'">PREDICT</button>
         </div>
        </nav>
        <div class="content">

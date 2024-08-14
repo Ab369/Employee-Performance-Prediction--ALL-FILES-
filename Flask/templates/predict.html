@@ -12,7 +12,7 @@
         padding:0;
         margin:0;
         box-sizing:border-box;
-        background-image: url('predict-bg.png');
+        background-image: url('/Flask/static/images/predict-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -21,7 +21,7 @@
         color:white;
        }
 
-    .inputs
+    form
     {
         display:flex;
         flex-direction: column;
@@ -48,7 +48,8 @@
 <body>
     
     <h3>Enter the Inputs and Press Submit to Predict</h3>
-    <div class="inputs">
+
+    <form action="http://127.0.0.1:5000/pred" method="POST">
     quarter
     <input type="text" name="quarter" 
     id="">
@@ -76,8 +77,8 @@
     <input type="text" name="idle_men" id="">
     no_of_workers
     <input type="text" name="no_of_workers" id="">
-</div>
 
     <input type="submit" value="submit" id="submit">
+</form>
 </body>
 </html>

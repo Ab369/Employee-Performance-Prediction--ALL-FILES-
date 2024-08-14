@@ -54,3 +54,7 @@
 
 
 5. Application Buiding
+   - Firstly I build the html pages- home.html,predict.html,about.html and submit.html
+   - Then i saved thye model from model.py file as 'gwp.pkl' file using Pickle
+   - Then I build the app.py file where routes of html pages defined and input from 'predict.html' taken using request object and input by user in UI
+   - On clicking predict, the result was sent to submit.html file via render_template and thus resulting text printed 
